@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".AboutActicity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tv_title"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:text="身高信息常识"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tv_info"
+        android:text="身高信息介绍身高信息介绍身高信息介绍身高信息介绍身高信息介绍身高信息介绍身高信息介绍身高信息介绍身高信息介绍身高信息介绍身高信息介绍"
+        />
+
+
+</LinearLayout>
